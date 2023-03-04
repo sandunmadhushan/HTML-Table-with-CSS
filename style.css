@@ -1,0 +1,68 @@
+body {
+  padding: 0 10%;
+}
+footer {
+  text-align: center;
+  font-family: Arial;
+  font-size: 10px;
+}
+.promo {
+  color: #7d3c98;
+}
+
+table.FlowerTable {
+  border: 1px solid #1c6ea4;
+  background-color: #eeeeee;
+  width: 100%;
+  text-align: center;
+}
+table.FlowerTable td,
+table.FlowerTable th {
+  border: 1px solid #aaa4a0;
+  padding: 3px 2px;
+}
+table.FlowerTable tbody td {
+  font-size: 13px;
+}
+table.FlowerTable tr:nth-child(even) {
+  background: #f5d1be;
+}
+table.FlowerTable thead {
+  background: #e39e17;
+  background: -moz-linear-gradient(top, #eab651 0%, #e5a72e 66%, #e39e17 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #eab651 0%,
+    #e5a72e 66%,
+    #e39e17 100%
+  );
+  background: linear-gradient(to bottom, #eab651 0%, #e5a72e 66%, #e39e17 100%);
+}
+table.FlowerTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  border-left: 2px solid #d0e4f5;
+}
+table.FlowerTable thead th:first-child {
+  border-left: none;
+}
+
+table.FlowerTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  background: #59626b;
+  background: -moz-linear-gradient(top, #828990 0%, #697179 66%, #59626b 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #828990 0%,
+    #697179 66%,
+    #59626b 100%
+  );
+  background: linear-gradient(to bottom, #828990 0%, #697179 66%, #59626b 100%);
+}
+table.FlowerTable tfoot td {
+  font-size: 14px;
+}
